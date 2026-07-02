@@ -22,3 +22,20 @@ quasar build
 ### Customize the configuration
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+### Previwe mode
+
+- SPA Mode
+```bash
+quasar dev
+```
+
+- SSR Mode
+```bash
+quasar dev -m ssr
+```
+
+- Mobile Mode
+```bash
+quasar dev -m capacitor -T [ios|android]
+```
