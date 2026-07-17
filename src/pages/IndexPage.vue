@@ -21,7 +21,7 @@ const loadingProgress = ref(0);
 const loadError = ref<string | null>(null);
 const isPlaced = ref(false);
 
-const MODEL_URL = '/assets/lake_titicaca_water_frog.glb';
+const MODEL_URL = '/assets/MBS-2351 Ansonia muelleri_dorsal.glb';
 const MODEL_SCALE = 0.2;
 
 let modelRoot: THREE.Object3D | null = null;
